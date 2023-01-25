@@ -21,12 +21,15 @@ public class Calculator {
 		switch(c) {
 		case 1 :result=a+b;
 		System.out.println("The answer is: "+result); 
+		System.out.println();
 		break;
 		case 2 :result=a-b;
-		System.out.println("The answer is: "+result); 
+		System.out.println("The answer is: "+result);
+		System.out.println();
 		break;
 		case 3 :result=a*b;
 		System.out.println("The answer is: "+result); 
+		System.out.println();
 		break;
 		case 4 :
 			if(b==0) {
@@ -35,6 +38,7 @@ public class Calculator {
 			 else {
 				result=a/b;
 				System.out.println("The answer is: "+result);
+				System.out.println();
 				break;
 			}
 		default: System.out.println("Invalid choice");
